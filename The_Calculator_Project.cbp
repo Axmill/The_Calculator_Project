@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="The_Calculator_Project" />
+		<Option title="The Calculator Project" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
@@ -31,6 +31,16 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="amazing_grace.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="candy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="divider.cpp" />
+		<Unit filename="hopefullythisworks.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
