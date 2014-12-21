@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
 	int num1;
 	int num2;
 	int product;
@@ -10,5 +11,5 @@ int main(void){
 	scanf("%d", &num2);
 	product = num1 * num2;
 	printf("The product is %d", product);
-	getch();
+	return 0;
 }

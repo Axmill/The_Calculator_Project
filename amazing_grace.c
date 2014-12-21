@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
 	printf("Hello, Computer");
 	getchar();
 	int num1;
@@ -11,5 +12,5 @@ int main(void){
 	scanf("%d", &num2);
 	diff = num1 - num2;
 	printf("The difference is %d", diff);
-	getch();
+	return 0;
 }

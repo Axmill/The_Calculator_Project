@@ -8,3 +8,7 @@ hopefullythisworks is for addition
 candy is for multiplication
 
 amazing_grace is for subtraction
+
+Bugs:
+
+* The slope calculator cannot handle undefined slopes (obviously)
