@@ -1,16 +1,28 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
-	printf("Hello, Computer");
-	getchar();
-	int num1;
-	int num2;
-	int sum;
-	printf("Enter your number:");
-	scanf("%d", &num1);
-	scanf("%d", &num2);
-	sum = num1 + num2;
-	printf("The sum is %d", sum);
+	int numbers, count;
+	int sum = 0;
+	printf("How many numbers do you wish to enter?\n");
+	scanf("%d", &numbers);
+	int* add = malloc(sizeof(int) * numbers);
+	
+	if(add == NULL)
+	{
+	    printf("Malloc failed!");
+	    return 1;
+	}
+	
+	printf("Enter your numbers: ");
+
+	for(count=0; count<numbers; count++)
+	{
+	    scanf("%d", add);
+	    sum = sum + (*add);
+	}
+
+	printf("The sum is %d.", sum);
 	return 0;
 }
